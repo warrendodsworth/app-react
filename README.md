@@ -1,3 +1,6 @@
+Ionic v4 React Demo App
+https://blog.ionicframework.com/announcing-the-ionic-react-beta/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
