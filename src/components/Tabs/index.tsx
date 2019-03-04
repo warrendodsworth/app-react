@@ -1,10 +1,10 @@
 import { IonApp, IonIcon, IonLabel, IonPage, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs } from '@ionic/react';
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
-
 import Tab1 from '../Tab1';
 import Tab2 from '../Tab2';
 import Tab3 from '../Tab3';
+
 
 class Home extends Component {
   render() {
@@ -22,15 +22,15 @@ class Home extends Component {
             <IonTabBar slot="bottom">
               <IonTabButton tab="home" href="/tab1">
                 <IonIcon name="home" />
-                <IonLabel>Tab 1</IonLabel>
+                <IonLabel>Home</IonLabel>
               </IonTabButton>
               <IonTabButton tab="settings" href="/tab2">
-                <IonIcon name="settings" />
-                <IonLabel>Tab 2</IonLabel>
+                <IonIcon name="list" />
+                <IonLabel>About</IonLabel>
               </IonTabButton>
               <IonTabButton tab="about" href="/tab3">
-                <IonIcon name="information-circle" />
-                <IonLabel>Tab 3</IonLabel>
+                <IonIcon name="person" />
+                <IonLabel>Account</IonLabel>
               </IonTabButton>
             </IonTabBar>
           </IonTabs>

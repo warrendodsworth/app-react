@@ -1,18 +1,4 @@
-import {
-  IonButtons,
-  IonContent,
-  IonDatetime,
-  IonHeader,
-  IonIcon,
-  IonItem,
-  IonLabel,
-  IonList,
-  IonMenuButton,
-  IonSelect,
-  IonSelectOption,
-  IonTitle,
-  IonToolbar,
-} from '@ionic/react';
+import { IonButtons, IonContent, IonDatetime, IonHeader, IonIcon, IonItem, IonLabel, IonList, IonMenuButton, IonSelect, IonSelectOption, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 
 export default class Tab3 extends React.Component {
@@ -23,7 +9,7 @@ export default class Tab3 extends React.Component {
           <IonButtons slot="start">
             <IonMenuButton></IonMenuButton>
           </IonButtons>
-          <IonTitle>Tab 3</IonTitle>
+          <IonTitle>Account</IonTitle>
         </IonToolbar>
       </IonHeader>
 
