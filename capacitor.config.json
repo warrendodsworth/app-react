@@ -2,5 +2,5 @@
   "appId": "io.ionic.starter",
   "appName": "App React",
   "bundledWebRuntime": false,
-  "webDir": "public"
+  "webDir": "build"
 }
