@@ -1,4 +1,4 @@
-create-react-app app-react1 --typescripe --use-npm
+create-react-app app-react1 --typescript --use-npm
 
 cd /app-react1
 
